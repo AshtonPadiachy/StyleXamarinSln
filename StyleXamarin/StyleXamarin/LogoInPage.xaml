@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StyleXamarin.LogoInPage" Title="Login" BackgroundColor="Black">
+    <ContentPage.Resources>
+        <Style x:Key="boxView" TargetType="BoxView">
+            <Setter Property="BackgroundColor" Value="DarkSalmon"/>
+
+        </Style>
+
+    </ContentPage.Resources>
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <BoxView Style="{StaticResource boxView}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
