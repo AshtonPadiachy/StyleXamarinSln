@@ -12,7 +12,7 @@
     <ContentPage.Content>
 
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Welcome to the Login Page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
             <BoxView Style="{StaticResource boxView}"/>
