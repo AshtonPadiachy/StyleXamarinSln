@@ -12,7 +12,8 @@
     <ContentPage.Content>
 
         <StackLayout>
-            <Label Text="Welcome to the Login Page"
+            <Label Text="Welcome to the Login Page 
+                   This is where the login details and entry properties need to be placed"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
             <BoxView Style="{StaticResource boxView}"/>
